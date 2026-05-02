@@ -60,6 +60,7 @@ Each customer was then assigned a compiled RFM coded score, which was a simple c
 ## R(FM) Segmentation
 RFM cannot be easily displayed in a 2D format, as it is a three-dimensional plot. Ecommerce Platform Shopify (2026) has implemented a creative strategy for overcoming this, where the Frequency (F) and Monetary (M) scores are averaged into a composite score, a score that theoretically would suggest a crude depiction of customer lifetime value. Here we will call this the composite FM score, or, simply, the FM score. Shopify (2026) has also created thresholds and labels representing a customer segments ‘relationship’ to the business for the period based on R and FM scores. An example can be seen here:
 
+![depiction of shopify's RFM visualization and segmentation graph](shopify_r_fm_example.png)
 
 For the present study, a R x FM segmentation was adapted from Shopify (2026). The FM composite score was calculated as the average of the F score and the M score, represented as:
 
@@ -72,3 +73,4 @@ $$
 Where F is Frequency Score and M is Monetary Score. 
 
 Groups were segmented according to the segment labels adapted from Shopify (2026). Individual .csv documents were made for each customer segment label, which would allow for targeted advertising efforts (obviously here the data was deidentified, but in a true use-case the data would have been identified). After this, Python’s matplotlib.pyplot module was used to depict the size of these segments based on number of customers and percentage of customer population.
+
