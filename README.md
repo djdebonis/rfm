@@ -74,3 +74,4 @@ Where F is Frequency Score and M is Monetary Score.
 
 Groups were segmented according to the segment labels adapted from Shopify (2026). Individual .csv documents were made for each customer segment label, which would allow for targeted advertising efforts (obviously here the data was deidentified, but in a true use-case the data would have been identified). After this, Python’s matplotlib.pyplot module was used to depict the size of these segments based on number of customers and percentage of customer population.
 
+![customer segmentation adapted from Shopify's (2026) RFM visualization and segmentation graph](r_fm_groupings_1.png)
