@@ -14,3 +14,12 @@ F(n) =
 $$
 
 Where *n* is the number of orders in the period.
+
+
+FM composite scores were calculated as:
+
+$$
+FM = \frac{F + M}{2}
+$$
+
+Where F is Frequency Score and M is Monetary Score. 
