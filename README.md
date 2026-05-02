@@ -1,12 +1,12 @@
 # RFM Analysis
 
-Let the recency score \(R(x)\) be defined as:
-
 $$
-R(x) =
+F(n) =
 \begin{cases}
-1 & \text{if } x \leq 2 \\
-3 & \text{if } 2 < x \leq 4 \\
-5 & \text{if } x > 4
+1 & \text{if } n = 1 \\
+2 & \text{if } n = 2 \\
+3 & \text{if } 3 \leq n \leq 4 \\
+4 & \text{if } 5 \leq n \leq 9 \\
+5 & \text{if } n \geq 10
 \end{cases}
 $$
