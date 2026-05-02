@@ -31,12 +31,15 @@ These data suggest that there is a large variance in the daily revenue, ranging 
 Recency (R), Frequency (F), and Monetary (M) scores were assigned to each customer independently based on their purchase behavior during the period. Recency and Monetary scores were calculated by quintiles in accordance with the method suggested by Hughes (2019). 
 
 **Recency scores**
+
 Recency scores were sorted by date of last order, broken into equal quintiles, then assigned a score based on their rank; the most recent 20% of customers were assigned a 5, the second most recent 20% of customers were assigned a 4, and so on.
 
-**Monetary scores** 
+**Monetary scores**
+
 Monetary scores were sorted from highest to lowest by customer total lifetime order revenue, broken into even quintiles, then assigned as score based on their rank; the customers of the highest 20% total lifetime order revenue were assigned a 5, the second highest 20% of total lifetime order revenue were assigned a 4, and so on.
 
 **Frequency scores**
+
 Frequency scores had to be assigned differently than suggested by Hughes (2019) due to the disproportionate number of customers who only had a frequency value of 1 (i.e. the customer only placed one order ever). Breaking into quintiles would have resulted in customers with only one order being arbitrarily assigned to groups of 1, 2, or 3, which would misrepresent a significant difference in their past purchase behavior in the F score. To overcome this obstacle, thresholds for groups were manually assigned to better represent customer frequency (loyalty) groups. Although this process may lead to different sizes of F score groupings, it ensures that the F scores accurately represent customer behavior—especially for customers with only one order and customers with large order quantities (i.e. 10+). F scores were assigned as follows:
 
 Let the Frequency score F(n) be defined as:
@@ -75,3 +78,8 @@ Where F is Frequency Score and M is Monetary Score.
 Groups were segmented according to the segment labels adapted from Shopify (2026). Individual .csv documents were made for each customer segment label, which would allow for targeted advertising efforts (obviously here the data was deidentified, but in a true use-case the data would have been identified). After this, Python’s matplotlib.pyplot module was used to depict the size of these segments based on number of customers and percentage of customer population.
 
 ![customer segmentation adapted from Shopify's (2026) RFM visualization and segmentation graph](r_fm_groupings_1.png)
+
+## References
+Hughes, A. M. (2019). Quick profits with RFM analysis. Database marketing institute.
+Python Software Foundation. (2025). Python (Python 3.9.13) [Computer software]. https://www.python.org/
+Shopify. (2026). RFM customer analysis. Shopify analytics reports. https://www.shopify.com/
