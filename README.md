@@ -1,5 +1,7 @@
 # RFM Analysis
 
+Let the Frequency score F(n) be defined as:
+
 $$
 F(n) =
 \begin{cases}
@@ -10,3 +12,5 @@ F(n) =
 5 & \text{if } n \geq 10
 \end{cases}
 $$
+
+Where *n* is the number of orders in the period.
