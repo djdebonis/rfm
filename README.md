@@ -2,7 +2,7 @@
 
 This data was collected between November, 2021 and April, 2026 for a Health and Wellness Ecommerce small business. Although the total revenue for the business is relatively small, there is a large repurchase rate over the course of years, so the data is worth evaluating. These analyses may support making recommendations for how the business can approach future endevours.
 
-All data analysis and visualization was conducted using the Python language (Python Software Foundation [2025]; henceforth “Python”), leveraging a Jupyter Notebook to scaffold and break down the different components of the analysis. This demonstrates the group’s competency in the learned skills from the course. The Jupyter Notebook can be accessed and visualized here.
+All data analysis and visualization was conducted using the Python language (Python Software Foundation [2025]; henceforth “Python”), leveraging a Jupyter Notebook to scaffold and break down the different components of the analysis. This demonstrates the group’s competency in the learned skills from the course. [The Jupyter Notebook can be accessed and visualized here.](ecommerce_data.ipynb)
 
 ### Summary of Data
 Timeline of Data
