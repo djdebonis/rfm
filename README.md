@@ -81,5 +81,7 @@ Groups were segmented according to the segment labels adapted from Shopify (2026
 
 ## References
 Hughes, A. M. (2019). Quick profits with RFM analysis. Database marketing institute.
+
 Python Software Foundation. (2025). Python (Python 3.9.13) [Computer software]. https://www.python.org/
+
 Shopify. (2026). RFM customer analysis. Shopify analytics reports. https://www.shopify.com/
