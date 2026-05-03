@@ -61,7 +61,7 @@ Where *n* is the number of orders in the period.
 Each customer was then assigned a compiled RFM coded score, which was a simple concatenation of the string format of their R score + F score + M score. For example, if a customer had an R Score of 5, an F Score of 3, and an M score of 5, their RFM coded score would be 535. 
 
 ## R(FM) Segmentation
-RFM cannot be easily displayed in a 2D format, as it is a three-dimensional plot. Ecommerce Platform Shopify (2026) has implemented a creative strategy for overcoming this, where the Frequency (F) and Monetary (M) scores are averaged into a composite score, a score that theoretically would suggest a crude depiction of customer lifetime value. Here we will call this the composite FM score, or, simply, the FM score. Shopify (2026) has also created thresholds and labels representing a customer segments ‘relationship’ to the business for the period based on R and FM scores. An example can be seen here:
+RFM cannot be easily displayed in a 2D format, as it is a three-dimensional plot. Ecommerce Platform Shopify (2026) has implemented a creative strategy for overcoming this, where the Frequency (F) and Monetary (M) scores are averaged into a composite score, a score that theoretically would suggest a crude and rudimentary depiction of customer's lifeitme spend. Here we will call this the composite FM score, or, simply, the FM score. Shopify (2026) has also created thresholds and labels representing a customer segments ‘relationship’ to the business for the period based on R and FM scores. An example can be seen here:
 
 ![depiction of shopify's RFM visualization and segmentation graph](shopify_r_fm_example.png)
 
