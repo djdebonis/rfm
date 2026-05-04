@@ -25,7 +25,11 @@ These data suggest that there is a large variance in the size of order values.
 
 ### Revenue Data by Day
 The average daily revenue for this small ecomm business is $157.55 with a median daily revenue of: $92.4.
-These data suggest that there is a large variance in the daily revenue, ranging from 0 to $1750+ on any given day.
+These data suggest that there is a large variance in the daily revenue, ranging from 0 to $1750+ on any given day. The daily revenue can be visualized in the following chart, which depicts revenue by day:
+
+![depiction of revenue for day for consumer packaged goods company](daily_revenue.png)
+
+It can be seen that there is a wide range in daily revenue, and that the overall trend in revenue has stayed relatively static over the period.
 
 ### RFM Segmentation
 Recency (R), Frequency (F), and Monetary (M) scores were assigned to each customer independently based on their purchase behavior during the period. Recency and Monetary scores were calculated by quintiles in accordance with the method suggested by Hughes (2019). 
