@@ -5,15 +5,14 @@ This data was collected between November, 2021 and April, 2026 for a Health and 
 All data analysis and visualization was conducted using the Python language (Python Software Foundation [2025]; henceforth “Python”), leveraging a Jupyter Notebook to scaffold and break down the different components of the analysis. This demonstrates the group’s competency in the learned skills from the course. [The Jupyter Notebook can be accessed and visualized here.](ecommerce_data.ipynb)
 
 ### Summary of Data
-**Timeline of Data**
 [The original dataset](unidentified_ecom_data.csv) was exported from the ecommerce platforms and de-identified by assigning a unique customer ID per customer. In an actual company analysis, features such as name and email address would be maintained for targeted marketing efforts. 
-The first order in this dataset was placed 2021-11-26 
+**Timeline of Data**: The first order in this dataset was placed 2021-11-26 
 The latest order in this dataset was placed 2026-04-18 
 Meaning this dataset spans approx: 
 4 years, 4 months, and 24 days of sales data.
 
 ### Summary statistics of Revenue
-Total Revenue and Orders
+**Total Revenue and Orders**: 
 The total revenue in the period is $135,022.53
 There is a total of 1973 orders in this period contributing to the total revenue number.
 
@@ -60,6 +59,8 @@ Where *n* is the number of orders in the period.
 
 
 Each customer was then assigned a compiled RFM coded score, which was a simple concatenation of the string format of their R score + F score + M score. For example, if a customer had an R Score of 5, an F Score of 3, and an M score of 5, their RFM coded score would be 535. 
+
+All RFM codes were appended to the customer's data, which can be found in [the full customer dataset spreadsheet file](full_rfm_data.csv). Additionally, summary statistics were grouped based on the customers' unique RFM codes, which can be found [in this spreadsheet](full_rfm_breakdown_by_code.csv).
 
 ## R(FM) Segmentation
 RFM cannot be easily displayed in a 2D format, as it is a three-dimensional plot. Ecommerce Platform Shopify (2026) has implemented a creative strategy for overcoming this, where the Frequency (F) and Monetary (M) scores are averaged into a composite score, a score that theoretically would suggest a crude and rudimentary depiction of customer's lifeitme spend. Here we will call this the composite FM score, or, simply, the FM score. Shopify (2026) has also created thresholds and labels representing a customer segments ‘relationship’ to the business for the period based on R and FM scores. An example can be seen here:
