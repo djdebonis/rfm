@@ -85,7 +85,7 @@ Groups were segmented according to the segment labels adapted from Shopify (2026
 
 ![customer segmentation adapted from Shopify's (2026) RFM visualization and segmentation graph](r_fm_groupings_1.png)
 
-These segmentation groups can be leveraged to conduct targeted marketing efforts within the firm's customer base. An example of how the firm can leverage these groups is with targeted offers and rewards. 
+These segmentation groups can be leveraged to conduct targeted marketing efforts within the firm's customer base. An example of how the firm can leverage these groups is with targeted offers and rewards. The individual segment spreadsheets can be found in the [segments folder of this repository](segments).
 
 Customers in the "Champion" category might be rewarded with a  $10-20 credit in their account for the next time they make a purchase, or maybe a gift in their next purchase, as a way to say "thank you" for their loyalty and commitment to the brand. Credits or gifts, unlike a simple discount code, feel tangible as if it were an actual gift. On the other hand, customers in the "Needs Attention" or "Previously Loyal" categories might benefit from a targeted reactivation email or letter that offers a special, limited time discount code. Customers in the "Dormant" category should likely be removed from direct mailing lists to avoid unnecessary costs of direct mail; these "Dormant" customers should also likely be removed from most email communications to ensure they are not reducing the open-rate and the engagement-rate of the Email Service Provider (ESP), which can increase the chance that brand emails to end up people's promotions, junk, or spam folders. 
 
