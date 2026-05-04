@@ -5,7 +5,8 @@ This data was collected between November, 2021 and April, 2026 for a Health and 
 All data analysis and visualization was conducted using the Python language (Python Software Foundation [2025]; henceforth “Python”), leveraging a Jupyter Notebook to scaffold and break down the different components of the analysis. This demonstrates the group’s competency in the learned skills from the course. [The Jupyter Notebook can be accessed and visualized here.](ecommerce_data.ipynb)
 
 ### Summary of Data
-Timeline of Data
+**Timeline of Data**
+[The original dataset](unidentified_ecom_data.csv) was exported from the ecommerce platforms and de-identified by assigning a unique customer ID per customer. In an actual company analysis, features such as name and email address would be maintained for targeted marketing efforts. 
 The first order in this dataset was placed 2021-11-26 
 The latest order in this dataset was placed 2026-04-18 
 Meaning this dataset spans approx: 
